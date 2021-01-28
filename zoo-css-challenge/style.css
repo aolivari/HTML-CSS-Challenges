@@ -21,7 +21,8 @@ header ul {
 
 header ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 27px;
+  margin-left: 27px;
 }
 
 section {
