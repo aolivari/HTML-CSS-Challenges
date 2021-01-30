@@ -242,21 +242,18 @@ color: #F4743B;
 }
 
 /*Programs*/
-.card1{
+#card1{
   background-color: rgb(3, 8, 247);
-  color: black;
-  }
-.card2{
+  color: white;
+  
+    }
+#card2{
  background-color: sienna;
- color: black;
- 
+ color: white;
 }
-
-
-
-.card3{
+#card3{
 background-color:darkgrey;
-color: black;
+color: white;
 }
   
 .programs.card{
