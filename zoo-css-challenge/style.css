@@ -66,6 +66,14 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  
+}
+
+button:hover {
+
+  background-color: #BEEE62;
+  color: red;
+  transition: all 300ms;
 }
 
 footer {
@@ -111,6 +119,8 @@ footer {
 
 #badge:hover {
   background-color: rgb(250, 225, 179);
+  transition: 300ms;
+  
 }
 
 #badge p {
@@ -163,17 +173,17 @@ color: #85000D;
 .giraffe h3 {
 color: #F4743B;
 }
-.card {
+.card{
   display: inline-block;
   background-color: white;
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  width: auto;
   border: 1px solid black;
   border-radius: 10px;
 }
 
-.card h4 {
+.card h4{
   margin-bottom: 1em;
 }
 
@@ -203,6 +213,7 @@ color: #F4743B;
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 10px;
 }
 
 .education-container h3,
@@ -231,7 +242,23 @@ color: #F4743B;
 }
 
 /*Programs*/
+.card1{
+  background-color: rgb(3, 8, 247);
+  color: black;
+  }
+.card2{
+ background-color: sienna;
+ color: black;
+ 
+}
 
-.programs .card {
-  display: block;
+
+
+.card3{
+background-color:darkgrey;
+color: black;
+}
+  
+.programs.card{
+width: auto;
 }
